@@ -1,0 +1,28 @@
+body {
+	background: #EFEFBB;
+	background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
+	color: white;
+	margin: 0;
+	font-family: rubik;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+input, button {
+  display: block;
+  height: 60px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#image-container {
+  margin-top: 30px;
+  
+}
+#image-qr {
+  box-shadow: 10px 10px 10px #222;
+              
+}
