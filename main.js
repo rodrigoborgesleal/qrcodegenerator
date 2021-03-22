@@ -23,7 +23,7 @@ button.addEventListener('click', async () => {
       input.value = ''
       input.focus()
     } else {
-      // caso get não retorne 200
+      
       imgContainer = 
         `
           <p class="info-no">QRcode não gerado!</p>
