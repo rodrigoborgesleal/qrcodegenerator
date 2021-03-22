@@ -7,7 +7,7 @@ async function getQrcode(value) {
   return res
 }
 
-button.addEventListener('click', async function() {
+button.addEventListener('click', async () => {
   const input = document.querySelector('#input')
   
   if(input.value.trim() !== '') {
@@ -34,10 +34,11 @@ button.addEventListener('click', async function() {
     }
     
   } else{
-    alert('Não é possível gerar Qrcode com campo vazio!\r\nTente novamente!')
+    alert('Não é possível gerar Qrcode com campo vazio! ⛔\r\nTente novamente!  ♻️')
     input.focus()
   }
 
 })
+
 
 
